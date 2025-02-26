@@ -10,7 +10,7 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Tech Department', link: '/tech-department/' },
-      { text: 'C-Level', link: '/c-level/' }
+      { text: 'Interfaces', link: '/interfaces/' }
     ],
     sidebar: {
       '/tech-department/': [
@@ -18,15 +18,28 @@ export default defineConfig({
           text: 'Tech Department',
           items: [
             { text: 'Department Structure', link: '/tech-department/structure' },
+            {
+              text: 'Interfaces',
+              collapsed: true,
+              items: [
+                { text: 'Overview', link: '/tech-department/interfaces' },
+                { text: 'Product Management', link: '/tech-department/interfaces/product-management' },
+                { text: 'Design', link: '/tech-department/interfaces/design' },
+                { text: 'Sales', link: '/tech-department/interfaces/sales' },
+                { text: 'Marketing', link: '/tech-department/interfaces/marketing' },
+                { text: 'Customer Support', link: '/tech-department/interfaces/customer-support' }
+              ]
+            },
             { text: 'Processes & Workflows', link: '/tech-department/processes' }
           ]
         }
       ],
-      '/c-level/': [
+      '/interfaces/': [
         {
-          text: 'C-Level Interfaces',
+          text: 'Interfaces',
           items: [
-            { text: 'Overview', link: '/c-level/' }
+            { text: 'Overview', link: '/interfaces/' },
+            { text: 'C-Level Interface', link: '/interfaces/c-level' }
           ]
         }
       ]
