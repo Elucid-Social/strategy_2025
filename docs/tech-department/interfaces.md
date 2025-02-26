@@ -11,28 +11,28 @@ const interfaces = ref([
     frequency: 'Daily'
   },
   {
-    department: 'Design',
+    department: 'Design??',
     collaborationPoints: 'UI/UX implementation, Design system, Prototype review',
     channels: 'Design reviews, Feedback sessions, System docs',
-    frequency: 'Weekly'
+    frequency: 'Monthly'
   },
   {
-    department: 'Sales',
+    department: 'Partnerships',
     collaborationPoints: 'Technical support, Feature documentation, Solution assessment',
     channels: 'Enablement sessions, Tech docs, Architecture reviews',
-    frequency: 'Weekly'
+    frequency: 'TBD'
   },
   {
     department: 'Marketing',
     collaborationPoints: 'Content review, Product docs, Technical blogs',
     channels: 'Review meetings, Doc updates, Campaign support',
-    frequency: 'Bi-weekly'
+    frequency: 'TBD'
   },
   {
-    department: 'Customer Support',
+    department: 'Operations',
     collaborationPoints: 'Bug triage, Issue resolution, Feature requests',
     channels: 'Support tickets, Status meetings, Knowledge base',
-    frequency: 'Daily'
+    frequency: 'Biweekly'
   }
 ])
 </script>
