@@ -1,0 +1,13 @@
+services:
+  docs:
+    build: .
+    ports:
+      - "5173:5173"
+    volumes:
+      - .:/app
+      - /app/node_modules
+      - /app/docs/.vitepress/dist
+      - /app/docs/.vitepress/cache
+    environment:
+      - NODE_ENV=development
+    command: npm run docs:dev -- --host 0.0.0.0

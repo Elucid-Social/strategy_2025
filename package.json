@@ -1,0 +1,20 @@
+{
+  "name": "strategy-2025",
+  "version": "1.0.0",
+  "description": "Strategy 2025 Documentation",
+  "type": "module",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "vitepress": "^1.0.0-rc.40",
+    "vue": "^3.4.15",
+    "@types/node": "^20.11.0"
+  },
+  "dependencies": {
+    "primevue": "^3.48.1",
+    "primeicons": "^6.0.1"
+  }
+}

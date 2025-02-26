@@ -1,0 +1,27 @@
+:root {
+  --vp-c-brand: #4F46E5;
+  --vp-c-brand-light: #6366F1;
+  --vp-c-brand-dark: #4338CA;
+}
+
+.dark {
+  --vp-c-brand: #6366F1;
+  --vp-c-brand-light: #818CF8;
+  --vp-c-brand-dark: #4F46E5;
+}
+
+.vp-doc a {
+  text-decoration: none;
+}
+
+.p-component {
+  font-family: var(--vp-font-family-base);
+}
+
+.p-card {
+  margin-bottom: 1rem;
+}
+
+.custom-block {
+  margin: 1rem 0;
+}
