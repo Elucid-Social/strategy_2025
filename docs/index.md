@@ -2,29 +2,16 @@
 layout: home
 hero:
   name: "Strategy 2025"
-  text: "Strategic Planning Documentation"
+  icon: 🏗️
+  text: "Tech Department"
   tagline: Comprehensive documentation for our 2025 strategic initiatives
-  actions:
-    - theme: brand
-      text: Get Started
-      link: /tech-department/
-    - theme: alt
-      text: View on GitHub
-      link: https://github.com/yourusername/strategy-2025
+
 
 features:
   - icon: 🏗️
     title: Tech Department
     details: Explore our technology department's structure, goals, and initiatives
     link: /tech-department/structure
-  - icon: 👥
-    title: C-Level Interfaces
-    details: Access executive-level documentation and strategic interfaces
-    link: /c-level/
-  - icon: 📈
-    title: Processes & Workflows
-    details: Learn about our standardized processes and efficient workflows
-    link: /tech-department/processes
 ---
 
 <script setup>
