@@ -33,6 +33,12 @@ const interfaces = ref([
     collaborationPoints: 'Bug triage, Issue resolution, Feature requests',
     channels: 'Support tickets, Status meetings, Knowledge base',
     frequency: 'Biweekly'
+  },
+  {
+    department: 'Finance',
+    collaborationPoints: 'Budget planning, Resource allocation, Cost analysis',
+    channels: 'Budget reviews, Cost reports, Resource tracking',
+    frequency: 'Monthly'
   }
 ])
 </script>
