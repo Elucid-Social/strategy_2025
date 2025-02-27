@@ -1,4 +1,4 @@
-# Customer Support Interface
+# Operations Interface
 
 <script setup>
 import { ref } from 'vue'
@@ -33,7 +33,7 @@ const activities = ref([
 
 ## Overview
 
-The Customer Support interface defines how the Tech Department collaborates with Customer Support to ensure efficient issue resolution and technical assistance.
+The Operations interface defines how the Tech Department collaborates with Operations to ensure efficient issue resolution and technical assistance.
 
 <PCard class="my-4">
   <template #title>
