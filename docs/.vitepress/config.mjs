@@ -25,9 +25,10 @@ export default defineConfig({
                 { text: 'Overview', link: '/tech-department/interfaces' },
                 { text: 'Product Management', link: '/tech-department/interfaces/product-management' },
                 { text: 'Design', link: '/tech-department/interfaces/design' },
-                { text: 'Sales', link: '/tech-department/interfaces/sales' },
+                { text: 'Partnerships', link: '/tech-department/interfaces/partnerships' },
                 { text: 'Marketing', link: '/tech-department/interfaces/marketing' },
-                { text: 'Customer Support', link: '/tech-department/interfaces/customer-support' }
+                { text: 'Operations', link: '/tech-department/interfaces/operations' },
+                { text: 'Finance', link: '/tech-department/interfaces/finance' }
               ]
             },
             { text: 'Processes & Workflows', link: '/tech-department/processes' }
