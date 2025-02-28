@@ -18,6 +18,7 @@ export default defineConfig({
           text: 'Tech Department',
           items: [
             { text: 'Department Structure', link: '/tech-department/structure' },
+            { text: 'Strategic Objectives', link: '/tech-department/objectives' },
             {
               text: 'Interfaces',
               collapsed: true,

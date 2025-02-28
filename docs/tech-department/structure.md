@@ -5,15 +5,19 @@ import { ref } from 'vue'
 
 const departments = ref([
   {
-    name: 'Moritz Frölitz',
+    name: 'Anh Pham',
+    role: 'Product Owner',
+    focus: 'Data Portal and HPPP'
+  },
+  {
+    name: 'Moritz Frühlich',
     role: 'Backend Developer / Fullstack',
-    size: 25,
     focus: 'HPPP and Data Portal'
   },
   {
     name: 'Heinrich Hanekom',
     role: 'Backend Developer / Fullstack',
-    size: 25,
+
     focus: 'HPPP and Data Portal'
   },
   {
@@ -25,7 +29,6 @@ const departments = ref([
   {
     name: 'Alejandro Jimenez',
     role: 'CTO',
-    size: 25,
     focus: 'Strategy and Architecture'
   }
 ])
@@ -37,7 +40,7 @@ Our technology department is structured to maximize efficiency and innovation wh
 
 <PCard class="my-4">
   <template #title>
-    Key Metrics
+    Team members
   </template>
   <template #content>
     <PDataTable :value="departments" class="mt-3">

@@ -5,9 +5,15 @@ import { ref } from 'vue'
 
 const sections = ref([
   {
-    name: 'Department Structure',
+    name: 'Department Structuress',
     description: 'Organization, roles, and responsibilities',
     link: '/tech-department/structure',
+    status: 'Active'
+  },
+  {
+    name: 'Strategic Objectives',
+    description: 'Our key objectives and focus areas for 2025',
+    link: '/tech-department/objectives',
     status: 'Active'
   },
   {

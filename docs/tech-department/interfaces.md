@@ -38,7 +38,7 @@ const interfaces = ref([
     department: 'Finance',
     collaborationPoints: 'Budget planning, Resource allocation, Cost analysis',
     channels: 'Budget reviews, Cost reports, Resource tracking',
-    frequency: 'Monthly'
+    frequency: 'TBD'
   }
 ])
 </script>
