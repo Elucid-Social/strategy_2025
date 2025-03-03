@@ -4,11 +4,7 @@
 import { ref } from 'vue'
 
 const departments = ref([
-  {
-    name: 'Anh Pham',
-    role: 'Product Owner',
-    focus: 'Data Portal and HPPP'
-  },
+
   {
     name: 'Moritz Fröhlich',
     role: 'Backend Developer / Fullstack',
