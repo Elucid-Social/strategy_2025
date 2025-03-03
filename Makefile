@@ -25,3 +25,9 @@ clean: ## Clean up containers and build files
 	$(DOCKER_COMPOSE) down
 	rm -rf docs/.vitepress/dist
 	rm -rf node_modules
+
+shell: ## Open a shell in the Docker Compose environment
+	$(DOCKER_COMPOSE) exec docs sh
+
+debug: ## Run with Node.js debug flags to trace ES module issues
+	$(DOCKER_COMPOSE) exec docs node --trace-warnings --experimental-modules docs/.vitepress/config.mjs
