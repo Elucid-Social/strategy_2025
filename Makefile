@@ -31,3 +31,9 @@ shell: ## Open a shell in the Docker Compose environment
 
 debug: ## Run with Node.js debug flags to trace ES module issues
 	$(DOCKER_COMPOSE) exec docs node --trace-warnings --experimental-modules docs/.vitepress/config.mjs
+
+deploy: build ## Deploy to GitHub Pages
+	git add docs/.vitepress/dist -f
+	git commit -m "Deploy to GitHub Pages"
+	git push origin `git subtree split --prefix docs/.vitepress/dist main`:gh-pages --force
+	git reset --hard HEAD~1
