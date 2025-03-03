@@ -10,7 +10,7 @@ const departments = ref([
     focus: 'Data Portal and HPPP'
   },
   {
-    name: 'Moritz Frühlich',
+    name: 'Moritz Fröhlich',
     role: 'Backend Developer / Fullstack',
     focus: 'HPPP and Data Portal'
   },
