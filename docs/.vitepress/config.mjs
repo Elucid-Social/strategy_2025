@@ -9,8 +9,7 @@ export default defineConfig({
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Tech Department', link: '/tech-department/' },
-      { text: 'Interfaces', link: '/interfaces/' }
+      { text: 'Tech Department', link: '/tech-department/' }
     ],
     sidebar: {
       '/tech-department/': [
