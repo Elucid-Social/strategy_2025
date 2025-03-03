@@ -30,8 +30,7 @@ export default defineConfig({
                 { text: 'Operations', link: '/tech-department/interfaces/operations' },
                 { text: 'Finance', link: '/tech-department/interfaces/finance' }
               ]
-            },
-            { text: 'Processes & Workflows', link: '/tech-department/processes' }
+            }
           ]
         }
       ],

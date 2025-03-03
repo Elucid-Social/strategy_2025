@@ -21,12 +21,6 @@ const sections = ref([
     description: 'Interdepartmental communication and collaboration',
     link: '/tech-department/interfaces',
     status: 'Active'
-  },
-  {
-    name: 'Processes & Workflows',
-    description: 'Standard operating procedures and methodologies',
-    link: '/tech-department/processes',
-    status: 'Active'
   }
 ])
 </script>
@@ -74,19 +68,10 @@ Welcome to the Tech Department documentation. This section provides comprehensiv
       </template>
     </PCard>
   </div>
-  <div class="col-4">
-    <PCard>
-      <template #title>Processes</template>
-      <template #content>
-        <p>Explore our standardized workflows and methodologies.</p>
-        <PButton link="/tech-department/processes" label="View Processes" />
-      </template>
-    </PCard>
-  </div>
 </div>
 
 ## Key Resources
 
 - [Department Structure Guide](/tech-department/structure)
 - [Interdepartmental Interfaces](/tech-department/interfaces)
-- [Process Documentation](/tech-department/processes)
+
