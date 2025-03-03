@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  base: '/',
+  base: '/strategy_2025/',
   outDir: '.vitepress/dist',
   cacheDir: '.vitepress/cache',
   title: "Strategy 2025",
